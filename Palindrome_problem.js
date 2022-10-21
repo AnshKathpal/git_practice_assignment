@@ -6,7 +6,7 @@
 let str = "naman";
 let bag1= "";
 let bag2 = "";
-for (x=0;x<=str.length;x++){
+for (x=0;x<str.length;x++){
   bag1 += str[x];
 }
 for(x=str.length-1;x>=0;x--){
